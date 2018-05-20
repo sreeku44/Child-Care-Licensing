@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD207C3E20B0AB7500F50124 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD207C3D20B0AB7500F50124 /* AppDelegate.swift */; };
+		DD207C4320B0AB7500F50124 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD207C4120B0AB7500F50124 /* Main.storyboard */; };
+		DD207C4520B0AB7900F50124 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD207C4420B0AB7900F50124 /* Assets.xcassets */; };
+		DD207C4820B0AB7900F50124 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD207C4620B0AB7900F50124 /* LaunchScreen.storyboard */; };
+		DD207C5320B0AB7900F50124 /* Child_Care_LicensingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD207C5220B0AB7900F50124 /* Child_Care_LicensingTests.swift */; };
+		DD207C5E20B0AB7900F50124 /* Child_Care_LicensingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD207C5D20B0AB7900F50124 /* Child_Care_LicensingUITests.swift */; };
+		DD207C6C20B0B20200F50124 /* ChildCare.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD207C6B20B0B20200F50124 /* ChildCare.swift */; };
+		DD207C6E20B0B62300F50124 /* ChildCareMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD207C6D20B0B62300F50124 /* ChildCareMapViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD207C4F20B0AB7900F50124 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD207C3220B0AB7500F50124 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD207C3920B0AB7500F50124;
+			remoteInfo = "Child Care Licensing";
+		};
+		DD207C5A20B0AB7900F50124 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD207C3220B0AB7500F50124 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD207C3920B0AB7500F50124;
+			remoteInfo = "Child Care Licensing";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD207C3A20B0AB7500F50124 /* Child Care Licensing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Child Care Licensing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD207C3D20B0AB7500F50124 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD207C4220B0AB7500F50124 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD207C4420B0AB7900F50124 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD207C4720B0AB7900F50124 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD207C4920B0AB7900F50124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD207C4E20B0AB7900F50124 /* Child Care LicensingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Child Care LicensingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD207C5220B0AB7900F50124 /* Child_Care_LicensingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Child_Care_LicensingTests.swift; sourceTree = "<group>"; };
+		DD207C5420B0AB7900F50124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD207C5920B0AB7900F50124 /* Child Care LicensingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Child Care LicensingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD207C5D20B0AB7900F50124 /* Child_Care_LicensingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Child_Care_LicensingUITests.swift; sourceTree = "<group>"; };
+		DD207C5F20B0AB7900F50124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD207C6B20B0B20200F50124 /* ChildCare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildCare.swift; sourceTree = "<group>"; };
+		DD207C6D20B0B62300F50124 /* ChildCareMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildCareMapViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD207C3720B0AB7500F50124 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD207C4B20B0AB7900F50124 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD207C5620B0AB7900F50124 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD207C3120B0AB7500F50124 = {
+			isa = PBXGroup;
+			children = (
+				DD207C3C20B0AB7500F50124 /* Child Care Licensing */,
+				DD207C5120B0AB7900F50124 /* Child Care LicensingTests */,
+				DD207C5C20B0AB7900F50124 /* Child Care LicensingUITests */,
+				DD207C3B20B0AB7500F50124 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD207C3B20B0AB7500F50124 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD207C3A20B0AB7500F50124 /* Child Care Licensing.app */,
+				DD207C4E20B0AB7900F50124 /* Child Care LicensingTests.xctest */,
+				DD207C5920B0AB7900F50124 /* Child Care LicensingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD207C3C20B0AB7500F50124 /* Child Care Licensing */ = {
+			isa = PBXGroup;
+			children = (
+				DD207C3D20B0AB7500F50124 /* AppDelegate.swift */,
+				DD207C6D20B0B62300F50124 /* ChildCareMapViewController.swift */,
+				DD207C6B20B0B20200F50124 /* ChildCare.swift */,
+				DD207C4120B0AB7500F50124 /* Main.storyboard */,
+				DD207C4420B0AB7900F50124 /* Assets.xcassets */,
+				DD207C4620B0AB7900F50124 /* LaunchScreen.storyboard */,
+				DD207C4920B0AB7900F50124 /* Info.plist */,
+			);
+			path = "Child Care Licensing";
+			sourceTree = "<group>";
+		};
+		DD207C5120B0AB7900F50124 /* Child Care LicensingTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD207C5220B0AB7900F50124 /* Child_Care_LicensingTests.swift */,
+				DD207C5420B0AB7900F50124 /* Info.plist */,
+			);
+			path = "Child Care LicensingTests";
+			sourceTree = "<group>";
+		};
+		DD207C5C20B0AB7900F50124 /* Child Care LicensingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD207C5D20B0AB7900F50124 /* Child_Care_LicensingUITests.swift */,
+				DD207C5F20B0AB7900F50124 /* Info.plist */,
+			);
+			path = "Child Care LicensingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD207C3920B0AB7500F50124 /* Child Care Licensing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD207C6220B0AB7900F50124 /* Build configuration list for PBXNativeTarget "Child Care Licensing" */;
+			buildPhases = (
+				DD207C3620B0AB7500F50124 /* Sources */,
+				DD207C3720B0AB7500F50124 /* Frameworks */,
+				DD207C3820B0AB7500F50124 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Child Care Licensing";
+			productName = "Child Care Licensing";
+			productReference = DD207C3A20B0AB7500F50124 /* Child Care Licensing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD207C4D20B0AB7900F50124 /* Child Care LicensingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD207C6520B0AB7900F50124 /* Build configuration list for PBXNativeTarget "Child Care LicensingTests" */;
+			buildPhases = (
+				DD207C4A20B0AB7900F50124 /* Sources */,
+				DD207C4B20B0AB7900F50124 /* Frameworks */,
+				DD207C4C20B0AB7900F50124 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD207C5020B0AB7900F50124 /* PBXTargetDependency */,
+			);
+			name = "Child Care LicensingTests";
+			productName = "Child Care LicensingTests";
+			productReference = DD207C4E20B0AB7900F50124 /* Child Care LicensingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD207C5820B0AB7900F50124 /* Child Care LicensingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD207C6820B0AB7900F50124 /* Build configuration list for PBXNativeTarget "Child Care LicensingUITests" */;
+			buildPhases = (
+				DD207C5520B0AB7900F50124 /* Sources */,
+				DD207C5620B0AB7900F50124 /* Frameworks */,
+				DD207C5720B0AB7900F50124 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD207C5B20B0AB7900F50124 /* PBXTargetDependency */,
+			);
+			name = "Child Care LicensingUITests";
+			productName = "Child Care LicensingUITests";
+			productReference = DD207C5920B0AB7900F50124 /* Child Care LicensingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD207C3220B0AB7500F50124 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Spotlight LLC";
+				TargetAttributes = {
+					DD207C3920B0AB7500F50124 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					DD207C4D20B0AB7900F50124 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = DD207C3920B0AB7500F50124;
+					};
+					DD207C5820B0AB7900F50124 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = DD207C3920B0AB7500F50124;
+					};
+				};
+			};
+			buildConfigurationList = DD207C3520B0AB7500F50124 /* Build configuration list for PBXProject "Child Care Licensing" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD207C3120B0AB7500F50124;
+			productRefGroup = DD207C3B20B0AB7500F50124 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD207C3920B0AB7500F50124 /* Child Care Licensing */,
+				DD207C4D20B0AB7900F50124 /* Child Care LicensingTests */,
+				DD207C5820B0AB7900F50124 /* Child Care LicensingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD207C3820B0AB7500F50124 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD207C4820B0AB7900F50124 /* LaunchScreen.storyboard in Resources */,
+				DD207C4520B0AB7900F50124 /* Assets.xcassets in Resources */,
+				DD207C4320B0AB7500F50124 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD207C4C20B0AB7900F50124 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD207C5720B0AB7900F50124 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD207C3620B0AB7500F50124 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD207C3E20B0AB7500F50124 /* AppDelegate.swift in Sources */,
+				DD207C6E20B0B62300F50124 /* ChildCareMapViewController.swift in Sources */,
+				DD207C6C20B0B20200F50124 /* ChildCare.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD207C4A20B0AB7900F50124 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD207C5320B0AB7900F50124 /* Child_Care_LicensingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD207C5520B0AB7900F50124 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD207C5E20B0AB7900F50124 /* Child_Care_LicensingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD207C5020B0AB7900F50124 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD207C3920B0AB7500F50124 /* Child Care Licensing */;
+			targetProxy = DD207C4F20B0AB7900F50124 /* PBXContainerItemProxy */;
+		};
+		DD207C5B20B0AB7900F50124 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD207C3920B0AB7500F50124 /* Child Care Licensing */;
+			targetProxy = DD207C5A20B0AB7900F50124 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD207C4120B0AB7500F50124 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD207C4220B0AB7500F50124 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD207C4620B0AB7900F50124 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD207C4720B0AB7900F50124 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD207C6020B0AB7900F50124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD207C6120B0AB7900F50124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD207C6320B0AB7900F50124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U6LTH9BHPD;
+				INFOPLIST_FILE = "Child Care Licensing/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Spotlight-LLC.Child-Care-Licensing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD207C6420B0AB7900F50124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U6LTH9BHPD;
+				INFOPLIST_FILE = "Child Care Licensing/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Spotlight-LLC.Child-Care-Licensing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DD207C6620B0AB7900F50124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U6LTH9BHPD;
+				INFOPLIST_FILE = "Child Care LicensingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Spotlight-LLC.Child-Care-LicensingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Child Care Licensing.app/Child Care Licensing";
+			};
+			name = Debug;
+		};
+		DD207C6720B0AB7900F50124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U6LTH9BHPD;
+				INFOPLIST_FILE = "Child Care LicensingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Spotlight-LLC.Child-Care-LicensingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Child Care Licensing.app/Child Care Licensing";
+			};
+			name = Release;
+		};
+		DD207C6920B0AB7900F50124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U6LTH9BHPD;
+				INFOPLIST_FILE = "Child Care LicensingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Spotlight-LLC.Child-Care-LicensingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Child Care Licensing";
+			};
+			name = Debug;
+		};
+		DD207C6A20B0AB7900F50124 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U6LTH9BHPD;
+				INFOPLIST_FILE = "Child Care LicensingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Spotlight-LLC.Child-Care-LicensingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Child Care Licensing";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD207C3520B0AB7500F50124 /* Build configuration list for PBXProject "Child Care Licensing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD207C6020B0AB7900F50124 /* Debug */,
+				DD207C6120B0AB7900F50124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD207C6220B0AB7900F50124 /* Build configuration list for PBXNativeTarget "Child Care Licensing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD207C6320B0AB7900F50124 /* Debug */,
+				DD207C6420B0AB7900F50124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD207C6520B0AB7900F50124 /* Build configuration list for PBXNativeTarget "Child Care LicensingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD207C6620B0AB7900F50124 /* Debug */,
+				DD207C6720B0AB7900F50124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD207C6820B0AB7900F50124 /* Build configuration list for PBXNativeTarget "Child Care LicensingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD207C6920B0AB7900F50124 /* Debug */,
+				DD207C6A20B0AB7900F50124 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD207C3220B0AB7500F50124 /* Project object */;
+}
