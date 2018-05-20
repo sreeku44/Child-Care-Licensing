@@ -15,6 +15,7 @@
 		DD207C5E20B0AB7900F50124 /* Child_Care_LicensingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD207C5D20B0AB7900F50124 /* Child_Care_LicensingUITests.swift */; };
 		DD207C6C20B0B20200F50124 /* ChildCare.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD207C6B20B0B20200F50124 /* ChildCare.swift */; };
 		DD207C6E20B0B62300F50124 /* ChildCareMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD207C6D20B0B62300F50124 /* ChildCareMapViewController.swift */; };
+		DD207C7020B1E98F00F50124 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD207C6F20B1E98F00F50124 /* IntroViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		DD207C5F20B0AB7900F50124 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD207C6B20B0B20200F50124 /* ChildCare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildCare.swift; sourceTree = "<group>"; };
 		DD207C6D20B0B62300F50124 /* ChildCareMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildCareMapViewController.swift; sourceTree = "<group>"; };
+		DD207C6F20B1E98F00F50124 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				DD207C3D20B0AB7500F50124 /* AppDelegate.swift */,
+				DD207C6F20B1E98F00F50124 /* IntroViewController.swift */,
 				DD207C6D20B0B62300F50124 /* ChildCareMapViewController.swift */,
 				DD207C6B20B0B20200F50124 /* ChildCare.swift */,
 				DD207C4120B0AB7500F50124 /* Main.storyboard */,
@@ -262,6 +265,7 @@
 				DD207C3E20B0AB7500F50124 /* AppDelegate.swift in Sources */,
 				DD207C6E20B0B62300F50124 /* ChildCareMapViewController.swift in Sources */,
 				DD207C6C20B0B20200F50124 /* ChildCare.swift in Sources */,
+				DD207C7020B1E98F00F50124 /* IntroViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

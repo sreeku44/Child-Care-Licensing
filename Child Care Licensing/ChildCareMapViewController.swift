@@ -26,14 +26,17 @@ class ChildCareMapViewController: UIViewController, MKMapViewDelegate, CLLocatio
     @IBOutlet weak var mapView: MKMapView!
     
     var isFirstUse : Bool = true
-    
+   
+    @IBAction func backButtonPressed(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
     
 //    func mapView(MV: Childcare) {
 //        <#code#>
 //    }
     override func viewDidLoad() {
         super.viewDidLoad()
-           self.title = childcareSelected
+           self.title = "Child Care Center violations"
         
         
         self.locationManager = CLLocationManager ()
